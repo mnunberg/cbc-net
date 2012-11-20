@@ -66,7 +66,7 @@ namespace Couchbase.Cbc.Commands
 			}
 			else if (options.Command == "prepend")
 			{
-				res = client.ExecuteAppend(Key,
+				res = client.ExecutePrepend(Key,
 					options.Cas,
 					new ArraySegment<byte>(vbytes));
 			}
