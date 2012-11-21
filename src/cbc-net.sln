@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enyim.Caching", "..\..\couc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CbcNet", "CbcNet\CbcNet.csproj", "{E72A5EB7-0D3D-45C4-8C0E-9CFBA3A1E664}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CbcView", "CbcView\CbcView.csproj", "{FA93442C-266A-467B-B698-74F7E025289B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{708A2350-A26C-444D-B975-8164263951A7} = {708A2350-A26C-444D-B975-8164263951A7}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +52,16 @@ Global
 		{E72A5EB7-0D3D-45C4-8C0E-9CFBA3A1E664}.Release|Mixed Platforms.Build.0 = Release|x86
 		{E72A5EB7-0D3D-45C4-8C0E-9CFBA3A1E664}.Release|x86.ActiveCfg = Release|x86
 		{E72A5EB7-0D3D-45C4-8C0E-9CFBA3A1E664}.Release|x86.Build.0 = Release|x86
+		{FA93442C-266A-467B-B698-74F7E025289B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FA93442C-266A-467B-B698-74F7E025289B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{FA93442C-266A-467B-B698-74F7E025289B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{FA93442C-266A-467B-B698-74F7E025289B}.Debug|x86.ActiveCfg = Debug|x86
+		{FA93442C-266A-467B-B698-74F7E025289B}.Debug|x86.Build.0 = Debug|x86
+		{FA93442C-266A-467B-B698-74F7E025289B}.Release|Any CPU.ActiveCfg = Release|x86
+		{FA93442C-266A-467B-B698-74F7E025289B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{FA93442C-266A-467B-B698-74F7E025289B}.Release|Mixed Platforms.Build.0 = Release|x86
+		{FA93442C-266A-467B-B698-74F7E025289B}.Release|x86.ActiveCfg = Release|x86
+		{FA93442C-266A-467B-B698-74F7E025289B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
